@@ -27,4 +27,10 @@
 # Demo
 https://aqueous-beyond-40132.herokuapp.com/
 
+# Instructions
+
+Please change your SECRET_KEY in settings.py file to run on localserver: 
+SECRET_KEY = 'gu5tw4#b^asc387g(8!5=4tj1zlnzufc_2u7w4-p!&&=yx2y8e'
+and comment the below line:
+#SECRET_KEY= os.environ.get("SECRET_KEY")
 
