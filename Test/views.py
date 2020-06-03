@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.core import serializers
-from django.http import HttpResponse
+from django.http import JsonResponse
 from .models import User,ActivityPeriod
 import json
 
@@ -25,4 +25,4 @@ def call_response(request):
 
         result["members"].append(member);
 
-    return  HttpResponse(json.dumps(result))
+    return  JsonResponse(json.dumps(result), safe=False)
