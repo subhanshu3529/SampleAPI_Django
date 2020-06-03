@@ -18,7 +18,7 @@ class Command(BaseCommand):
 
     def handle(self, **options):
 
-        if(not options['name'].isalpha()):
+        if(not options['name'].replace(" ","").isalpha()):
             raise CommandError("Enter a valid name, the name must contain only alphabets")
         if(options['timezone'].replace(" ","") not in pytz.all_timezones):
             raise CommandError("please select a valid timezone. you can check your timezone from the link: https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568")

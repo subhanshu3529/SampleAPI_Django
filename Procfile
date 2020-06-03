@@ -1,1 +1,1 @@
-web : gunicorn FullThrottleLabs.wsgi
+web: gunicorn FullThrottleLabs.wsgi
