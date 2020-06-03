@@ -21,7 +21,7 @@
 
 # For creating Dummy data using command-line
 `python manage.py insert -n "Narandre Modi" -tz " Africa/Abidjan"  --activityperiod "[{'start_time': 'Feb 1 2020  1:33PM','end_time': 'Feb 1 2020 1:54 PM'},{'start_time': 'Feb 1 2020  1:39PM','end_time': 'Feb 1 2020 1:54PM'}]"`
-or
+
 `python manage.py insert --name "Amit Shah" --timezone " Africa/Abidjan"  --activityperiod "[{'start_time': 'Feb 1 2020  1:33PM','end_time': 'Feb 1 2020 1:54 PM'}]"`
 
 
