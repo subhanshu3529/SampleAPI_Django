@@ -24,4 +24,7 @@
 
 `python manage.py insert --name "Amit Shah" --timezone " Africa/Abidjan"  --activityperiod "[{'start_time': 'Feb 1 2020  1:33PM','end_time': 'Feb 1 2020 1:54 PM'}]"`
 
+# Demo
+https://aqueous-beyond-40132.herokuapp.com/
+
 
